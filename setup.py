@@ -1,11 +1,12 @@
 from setuptools import setup
 
 setup(
-        name="Demo",
+        name="booklover",
         version='0.1',
-        description='A simple demonstration package',
+        description='DS5100 M09 Assignment',
         url='http://github.com/Niarfe/m09-package',
         author='Efrain Olivares',
         licence='MIT',
-        packages=['demo']
+        packages=['booklover'],
+        install_requires=['pandas']
         )
